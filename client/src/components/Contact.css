@@ -1,0 +1,101 @@
+.allofcontact{
+    background-color: #262630;
+    color: white;
+}
+
+.contacttext{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bothcontactpart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.allofform{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid white;
+    border-radius: 10%;
+    box-shadow: 5px 20px 80px 10px #888888;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    transition: box-shadow 1.5s;
+}
+
+.allofform:hover{
+    box-shadow: 5px 20px 80px 10px blue; 
+}
+
+.nameofform{
+    font-size: 25px;
+    padding: 10%;
+    text-align: center;
+}
+
+.mailofform{
+    font-size: 25px;
+    padding: 10%;
+    text-align: center;
+}
+
+.subjectofform{
+    font-size: 25px;
+    padding: 10%;
+    text-align: center;
+}
+
+.submitofform{
+    font-size: 25px;
+    padding: 10%;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+.submitofform:hover{
+    opacity: 0.5;
+}
+
+.firstinput{
+    width: 200px;
+    height: 25px;
+}
+
+.secondinput{
+    width: 200px;
+    height: 25px;
+}
+
+.thirdinput{
+    width: 200px;
+    height: 25px;
+}
+
+.fourthinput{
+    width: 50%;
+    height: 40px;
+    border-radius: 15%;
+}
+
+.alloficonboxes{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15%;
+    justify-content: center;
+    color: white;
+}
+
+.iconboxes{
+    margin: 50px;
+    transition: opacity 0.5s;
+}
+
+.iconboxes:hover{
+    opacity: 0.5;
+}

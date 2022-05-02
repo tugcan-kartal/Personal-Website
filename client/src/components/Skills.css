@@ -1,0 +1,33 @@
+.allofskills{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headerbigone{
+    font-size: 32pt;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.sortboxes{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.boxes{
+    padding: 5%;
+    font-size: 20vh;
+    transition: opacity 0.5s;
+}
+
+.boxes:hover{
+    opacity: 0.5;
+}
+
+.subheaders{
+    font-size: 20pt;
+    padding-top: 2%;
+}

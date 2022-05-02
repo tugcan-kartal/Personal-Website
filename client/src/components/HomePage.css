@@ -1,0 +1,30 @@
+.AllOfHomePage{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    color: white;
+}
+
+.FirstParagraph{
+    font-size: 50px;
+    padding: 30px;
+}
+
+.SecondParagraph{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.İmageFromHomePage{
+    padding: 25px;
+}
+
+.Image{
+    width: 25vw;
+    border-radius: 50%;
+    transition: opacity 0.5s;
+}
+
+.Image:hover{
+    opacity: 0.5;
+}

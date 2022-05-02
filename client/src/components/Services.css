@@ -1,0 +1,46 @@
+.AllOfServices{
+    color: white;
+    background-color: #262630;
+}
+
+.biggestheader{
+    font-size: 45px;
+    text-align: center;
+    padding: 5%;
+}
+
+.allofcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.contentone{
+    display: flex;
+}
+
+.contentofcontentone{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 8%;
+}
+
+.firstparagraph{
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+.firstimage{
+    padding-left: 8%;
+    padding-right: 8%;
+    transition: opacity 1s;
+}
+
+.firstimage:hover{
+    opacity: 0.5;
+}
+
+.imagesafter{
+    width: 25vw;
+    border-radius: 50%;
+}
